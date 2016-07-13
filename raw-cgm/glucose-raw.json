@@ -1,6 +1,78 @@
 [
   {
     "trend_arrow": "FLAT", 
+    "system_time": "2016-07-13T05:10:41", 
+    "direction": "Flat", 
+    "sgv": 106, 
+    "display_time": "2016-07-12T21:10:40", 
+    "date": 1468372240000.0, 
+    "dateString": "2016-07-12T21:10:40", 
+    "device": "openaps://cgm", 
+    "type": "sgv", 
+    "glucose": 106
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "system_time": "2016-07-13T05:05:40", 
+    "direction": "Flat", 
+    "sgv": 107, 
+    "display_time": "2016-07-12T21:05:39", 
+    "date": 1468371939000.0, 
+    "dateString": "2016-07-12T21:05:39", 
+    "device": "openaps://cgm", 
+    "type": "sgv", 
+    "glucose": 107
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "system_time": "2016-07-13T05:00:44", 
+    "direction": "Flat", 
+    "sgv": 106, 
+    "display_time": "2016-07-12T21:00:44", 
+    "date": 1468371644000.0, 
+    "dateString": "2016-07-12T21:00:44", 
+    "device": "openaps://cgm", 
+    "type": "sgv", 
+    "glucose": 106
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "system_time": "2016-07-13T04:55:40", 
+    "direction": "Flat", 
+    "sgv": 106, 
+    "display_time": "2016-07-12T20:55:40", 
+    "date": 1468371340000.0, 
+    "dateString": "2016-07-12T20:55:40", 
+    "device": "openaps://cgm", 
+    "type": "sgv", 
+    "glucose": 106
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "system_time": "2016-07-13T04:50:41", 
+    "direction": "Flat", 
+    "sgv": 108, 
+    "display_time": "2016-07-12T20:50:40", 
+    "date": 1468371040000.0, 
+    "dateString": "2016-07-12T20:50:40", 
+    "device": "openaps://cgm", 
+    "type": "sgv", 
+    "glucose": 108
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "system_time": "2016-07-13T04:45:40", 
+    "direction": "Flat", 
+    "sgv": 107, 
+    "display_time": "2016-07-12T20:45:40", 
+    "date": 1468370740000.0, 
+    "dateString": "2016-07-12T20:45:40", 
+    "device": "openaps://cgm", 
+    "type": "sgv", 
+    "glucose": 107
+  }, 
+  {
+    "trend_arrow": "FLAT", 
     "system_time": "2016-07-13T04:40:41", 
     "direction": "Flat", 
     "sgv": 105, 
