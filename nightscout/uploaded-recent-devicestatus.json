@@ -54,6 +54,7 @@
         "basal", 
         "openaps", 
         "pump", 
+        "battery", 
         "treatmentnotify", 
         "delta", 
         "direction", 
@@ -102,9 +103,9 @@
       "showForecast": "ar2", 
       "heartbeat": 60
     }, 
-    "created_at": "2016-07-16T19:41:10.638Z", 
+    "created_at": "2016-07-16T20:07:05.765Z", 
     "boluscalcEnabled": false, 
-    "serverTime": "2016-07-16T19:41:09.841Z", 
+    "serverTime": "2016-07-16T20:07:05.125Z", 
     "apiEnabled": true, 
     "version": "0.9.0-beta3", 
     "extendedSettings": {
@@ -112,8 +113,8 @@
         "advanced": true
       }
     }, 
-    "_id": "578a8dd602c40400334a35b2", 
+    "_id": "578a93e9bde215506e634102", 
     "careportalEnabled": true, 
-    "serverTimeEpoch": 1468698069841
+    "serverTimeEpoch": 1468699625125
   }
 ]
