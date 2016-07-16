@@ -102,7 +102,7 @@
     "heartbeat": 60
   }, 
   "boluscalcEnabled": false, 
-  "serverTime": "2016-07-16T18:20:17.206Z", 
+  "serverTime": "2016-07-16T18:46:36.771Z", 
   "apiEnabled": true, 
   "version": "0.9.0-beta3", 
   "extendedSettings": {
@@ -111,5 +111,5 @@
     }
   }, 
   "careportalEnabled": true, 
-  "serverTimeEpoch": 1468693217206
+  "serverTimeEpoch": 1468694796771
 }
