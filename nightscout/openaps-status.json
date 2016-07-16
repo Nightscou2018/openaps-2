@@ -1,0 +1,115 @@
+{
+  "status": "ok", 
+  "head": "0db82fff7a4552ba3b33cb239bef64665663eee6", 
+  "name": "Nightscout", 
+  "settings": {
+    "alarmUrgentLow": true, 
+    "alarmTimeagoUrgentMins": 30, 
+    "editMode": true, 
+    "thresholds": {
+      "bgTargetTop": 180, 
+      "bgTargetBottom": 80, 
+      "bgHigh": 260, 
+      "bgLow": 55
+    }, 
+    "scaleY": "log", 
+    "alarmTimeagoWarnMins": 15, 
+    "DEFAULT_FEATURES": [
+      "delta", 
+      "direction", 
+      "timeago", 
+      "devicestatus", 
+      "upbat", 
+      "errorcodes", 
+      "profile"
+    ], 
+    "alarmUrgentHigh": true, 
+    "focusHours": 3, 
+    "showRawbg": "never", 
+    "alarmWarnMins": [
+      30, 
+      60, 
+      90, 
+      120
+    ], 
+    "theme": "default", 
+    "nightMode": false, 
+    "units": "mg/dL", 
+    "alarmTimeagoUrgent": true, 
+    "alarmLow": true, 
+    "alarmTypes": [
+      "predict"
+    ], 
+    "customTitle": "Nightscout", 
+    "enable": [
+      "bridge", 
+      "careportal", 
+      "rawbg", 
+      "iob", 
+      "basal", 
+      "cob", 
+      "bwp", 
+      "cage", 
+      "basal", 
+      "openaps", 
+      "pump", 
+      "treatmentnotify", 
+      "delta", 
+      "direction", 
+      "timeago", 
+      "devicestatus", 
+      "upbat", 
+      "errorcodes", 
+      "profile", 
+      "ar2"
+    ], 
+    "alarmUrgentHighMins": [
+      30, 
+      60, 
+      90, 
+      120
+    ], 
+    "alarmHighMins": [
+      30, 
+      60, 
+      90, 
+      120
+    ], 
+    "alarmLowMins": [
+      15, 
+      30, 
+      45, 
+      60
+    ], 
+    "alarmUrgentLowMins": [
+      15, 
+      30, 
+      45
+    ], 
+    "alarmUrgentMins": [
+      30, 
+      60, 
+      90, 
+      120
+    ], 
+    "showPlugins": " delta direction upbat", 
+    "timeFormat": 12, 
+    "alarmHigh": true, 
+    "alarmTimeagoWarn": true, 
+    "language": "en", 
+    "baseURL": "", 
+    "showForecast": "ar2", 
+    "heartbeat": 60
+  }, 
+  "boluscalcEnabled": false, 
+  "serverTime": "2016-07-16T15:13:11.177Z", 
+  "apiEnabled": true, 
+  "version": "0.9.0-beta3", 
+  "extendedSettings": {
+    "devicestatus": {
+      "advanced": true
+    }
+  }, 
+  "careportalEnabled": true, 
+  "serverTimeEpoch": 1468681991177
+}
