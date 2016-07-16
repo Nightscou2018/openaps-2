@@ -1,120 +1,66 @@
 [
   {
-    "status": "ok", 
-    "head": "0db82fff7a4552ba3b33cb239bef64665663eee6", 
-    "name": "Nightscout", 
-    "settings": {
-      "alarmUrgentLow": true, 
-      "alarmTimeagoUrgentMins": 30, 
-      "editMode": true, 
-      "thresholds": {
-        "bgTargetTop": 180, 
-        "bgTargetBottom": 80, 
-        "bgHigh": 260, 
-        "bgLow": 55
+    "device": "openaps://raspberrypi", 
+    "created_at": "2016-07-16T21:01:10.560Z", 
+    "pump": {
+      "battery": {
+        "status": "normal", 
+        "voltage": 1.53
       }, 
-      "alarmWarnMins": [
-        30, 
-        60, 
-        90, 
-        120
-      ], 
-      "alarmTimeagoWarnMins": 15, 
-      "DEFAULT_FEATURES": [
-        "delta", 
-        "direction", 
-        "timeago", 
-        "devicestatus", 
-        "upbat", 
-        "errorcodes", 
-        "profile"
-      ], 
-      "alarmUrgentHigh": true, 
-      "focusHours": 3, 
-      "showRawbg": "never", 
-      "scaleY": "log", 
-      "theme": "default", 
-      "nightMode": false, 
-      "units": "mg/dL", 
-      "alarmTimeagoUrgent": true, 
-      "alarmLow": true, 
-      "alarmTypes": [
-        "predict"
-      ], 
-      "customTitle": "Nightscout", 
-      "enable": [
-        "bridge", 
-        "careportal", 
-        "rawbg", 
-        "iob", 
-        "basal", 
-        "cob", 
-        "bwp", 
-        "cage", 
-        "basal", 
-        "openaps", 
-        "pump", 
-        "battery", 
-        "treatmentnotify", 
-        "delta", 
-        "direction", 
-        "timeago", 
-        "devicestatus", 
-        "upbat", 
-        "errorcodes", 
-        "profile", 
-        "ar2"
-      ], 
-      "alarmUrgentHighMins": [
-        30, 
-        60, 
-        90, 
-        120
-      ], 
-      "alarmHighMins": [
-        30, 
-        60, 
-        90, 
-        120
-      ], 
-      "alarmLowMins": [
-        15, 
-        30, 
-        45, 
-        60
-      ], 
-      "alarmUrgentLowMins": [
-        15, 
-        30, 
-        45
-      ], 
-      "alarmUrgentMins": [
-        30, 
-        60, 
-        90, 
-        120
-      ], 
-      "showPlugins": " delta direction upbat", 
-      "timeFormat": 12, 
-      "alarmHigh": true, 
-      "alarmTimeagoWarn": true, 
-      "language": "en", 
-      "baseURL": "", 
-      "showForecast": "ar2", 
-      "heartbeat": 60
+      "status": {
+        "status": "normal", 
+        "timestamp": "2016-07-16T20:55:37.000Z", 
+        "bolusing": false, 
+        "suspended": false
+      }, 
+      "reservoir": 60.95, 
+      "clock": "2016-07-15T18:26:37-04:00"
     }, 
-    "created_at": "2016-07-16T20:41:13.098Z", 
-    "boluscalcEnabled": false, 
-    "serverTime": "2016-07-16T20:41:12.535Z", 
-    "apiEnabled": true, 
-    "version": "0.9.0-beta3", 
-    "extendedSettings": {
-      "devicestatus": {
-        "advanced": true
+    "_id": "578aa096bde215506e634107", 
+    "openaps": {
+      "suggested": {
+        "bg": 195, 
+        "temp": "absolute", 
+        "snoozeBG": 175, 
+        "timestamp": "2016-07-16T20:50:49.000Z", 
+        "reason": "Eventual BG 175>125 but Avg. Delta -3.33 < Exp. Delta -1.4, temp 0.675 ~ req 0.7U/hr", 
+        "eventualBG": 175, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: -20 BGI: 0", 
+        "tick": -3
+      }, 
+      "iob": {
+        "netbasalinsulin": 0, 
+        "timestamp": "2016-07-16T20:50:48.000Z", 
+        "activity": 0, 
+        "basaliob": 0, 
+        "hightempinsulin": 0, 
+        "bolussnooze": 0, 
+        "iob": 0
+      }, 
+      "enacted": {
+        "bg": 195, 
+        "temp": "absolute", 
+        "snoozeBG": 175, 
+        "timestamp": "2016-07-16T20:50:51.000Z", 
+        "missing": [
+          "duration", 
+          "rate"
+        ], 
+        "reason": "Eventual BG 175>125 but Avg. Delta -3.33 < Exp. Delta -1.4, temp 0.675 ~ req 0.7U/hr", 
+        "eventualBG": 175, 
+        "error": "missing required input fields", 
+        "input": {
+          "bg": 195, 
+          "temp": "absolute", 
+          "snoozeBG": 175, 
+          "reason": "Eventual BG 175>125 but Avg. Delta -3.33 < Exp. Delta -1.4, temp 0.675 ~ req 0.7U/hr", 
+          "eventualBG": 175, 
+          "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: -20 BGI: 0", 
+          "tick": -3
+        }, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: -20 BGI: 0", 
+        "tick": -3
       }
-    }, 
-    "_id": "578a9be9bde215506e634106", 
-    "careportalEnabled": true, 
-    "serverTimeEpoch": 1468701672535
+    }
   }
 ]
