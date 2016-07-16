@@ -2,16 +2,16 @@
   "bg": 105, 
   "temp": "absolute", 
   "snoozeBG": 75, 
-  "timestamp": "2016-07-16T18:20:32.740776", 
+  "timestamp": "2016-07-16T18:22:54.032366", 
   "missing": [
     "duration", 
     "rate"
   ], 
-  "reason": "Eventual BG 75<125, setting -3.3U/hr, but 28m left and 0 ~ req 0U/hr: no action required", 
+  "reason": "Eventual BG 75<125, setting -3.3U/hr, but 26m left and 0 ~ req 0U/hr: no action required", 
   "eventualBG": 75, 
   "error": "missing required input fields", 
   "input": {
-    "reason": "Eventual BG 75<125, setting -3.3U/hr, but 28m left and 0 ~ req 0U/hr: no action required", 
+    "reason": "Eventual BG 75<125, setting -3.3U/hr, but 26m left and 0 ~ req 0U/hr: no action required", 
     "bg": 105, 
     "eventualBG": 75, 
     "temp": "absolute", 
