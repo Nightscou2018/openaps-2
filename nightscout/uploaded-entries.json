@@ -1,0 +1,74 @@
+[
+  {
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-07-16T10:15:32-04:00", 
+    "system_time": "2016-07-16T18:15:33", 
+    "direction": "Flat", 
+    "dateString": "2016-07-16T10:15:32-04:00", 
+    "date": 1468678532000, 
+    "device": "openaps://cgm", 
+    "sgv": 98, 
+    "type": "sgv", 
+    "glucose": 98
+  }, 
+  {
+    "trend_arrow": "45_UP", 
+    "display_time": "2016-07-16T10:20:31-04:00", 
+    "system_time": "2016-07-16T18:20:31", 
+    "direction": "FortyFiveUp", 
+    "dateString": "2016-07-16T10:20:31-04:00", 
+    "date": 1468678831000, 
+    "device": "openaps://cgm", 
+    "sgv": 108, 
+    "type": "sgv", 
+    "glucose": 108
+  }, 
+  {
+    "trend_arrow": "45_UP", 
+    "display_time": "2016-07-16T10:30:30-04:00", 
+    "system_time": "2016-07-16T18:30:30", 
+    "direction": "FortyFiveUp", 
+    "dateString": "2016-07-16T10:30:30-04:00", 
+    "date": 1468679430000, 
+    "device": "openaps://cgm", 
+    "sgv": 122, 
+    "type": "sgv", 
+    "glucose": 122
+  }, 
+  {
+    "trend_arrow": "45_UP", 
+    "display_time": "2016-07-16T10:35:34-04:00", 
+    "system_time": "2016-07-16T18:35:34", 
+    "direction": "FortyFiveUp", 
+    "dateString": "2016-07-16T10:35:34-04:00", 
+    "date": 1468679734000, 
+    "device": "openaps://cgm", 
+    "sgv": 130, 
+    "type": "sgv", 
+    "glucose": 130
+  }, 
+  {
+    "trend_arrow": "45_UP", 
+    "display_time": "2016-07-16T10:50:31-04:00", 
+    "system_time": "2016-07-16T18:50:32", 
+    "direction": "FortyFiveUp", 
+    "dateString": "2016-07-16T10:50:31-04:00", 
+    "date": 1468680631000, 
+    "device": "openaps://cgm", 
+    "sgv": 152, 
+    "type": "sgv", 
+    "glucose": 152
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-07-16T11:00:31-04:00", 
+    "system_time": "2016-07-16T19:00:31", 
+    "direction": "Flat", 
+    "dateString": "2016-07-16T11:00:31-04:00", 
+    "date": 1468681231000, 
+    "device": "openaps://cgm", 
+    "sgv": 160, 
+    "type": "sgv", 
+    "glucose": 160
+  }
+]
