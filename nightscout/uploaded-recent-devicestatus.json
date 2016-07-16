@@ -102,9 +102,9 @@
       "showForecast": "ar2", 
       "heartbeat": 60
     }, 
-    "created_at": "2016-07-16T18:46:37.521Z", 
+    "created_at": "2016-07-16T19:26:17.748Z", 
     "boluscalcEnabled": false, 
-    "serverTime": "2016-07-16T18:46:36.771Z", 
+    "serverTime": "2016-07-16T19:26:17.060Z", 
     "apiEnabled": true, 
     "version": "0.9.0-beta3", 
     "extendedSettings": {
@@ -112,8 +112,8 @@
         "advanced": true
       }
     }, 
-    "_id": "578a810d02c40400334a35af", 
+    "_id": "578a8a5902c40400334a35b0", 
     "careportalEnabled": true, 
-    "serverTimeEpoch": 1468694796771
+    "serverTimeEpoch": 1468697177060
   }
 ]
