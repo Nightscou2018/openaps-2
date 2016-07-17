@@ -7,11 +7,11 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-17T08:33:31.000Z", 
+      "timestamp": "2016-07-17T08:48:30.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 43.775, 
+    "reservoir": 43.275, 
     "clock": "2016-07-15T18:26:37-04:00"
   }, 
   "openaps": {
@@ -19,33 +19,33 @@
       "bg": 151, 
       "temp": "absolute", 
       "snoozeBG": 151, 
-      "timestamp": "2016-07-17T08:33:56.000Z", 
-      "rate": 2, 
-      "reason": "Eventual BG 151>=120, temp 2<1.99U/hr", 
+      "timestamp": "2016-07-17T08:43:52.000Z", 
+      "reason": "Eventual BG 151>=120, temp 2 >~ req 1.99U/hr", 
       "eventualBG": 151, 
-      "duration": 30, 
       "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 120 Deviation: 0 BGI: 0", 
       "tick": "+0"
-    }, 
-    "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2016-07-17T08:33:54.000Z", 
-      "activity": 0, 
-      "basaliob": 0, 
-      "hightempinsulin": 0, 
-      "bolussnooze": 0, 
-      "iob": 0
     }, 
     "enacted": {
       "bg": 151, 
       "temp": "absolute", 
+      "missing": [
+        "duration", 
+        "rate"
+      ], 
+      "timestamp": "2016-07-17T08:43:55.000Z", 
       "snoozeBG": 151, 
-      "recieved": true, 
-      "reason": "Eventual BG 151>=120, temp 2<1.99U/hr", 
-      "rate": 2, 
+      "reason": "Eventual BG 151>=120, temp 2 >~ req 1.99U/hr", 
       "eventualBG": 151, 
-      "timestamp": "2016-07-17T08:34:00.000Z", 
-      "duration": 30, 
+      "error": "missing required input fields", 
+      "input": {
+        "bg": 151, 
+        "temp": "absolute", 
+        "snoozeBG": 151, 
+        "reason": "Eventual BG 151>=120, temp 2 >~ req 1.99U/hr", 
+        "eventualBG": 151, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 120 Deviation: 0 BGI: 0", 
+        "tick": "+0"
+      }, 
       "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 120 Deviation: 0 BGI: 0", 
       "tick": "+0"
     }
