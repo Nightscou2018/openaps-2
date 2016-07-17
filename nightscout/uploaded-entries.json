@@ -1,0 +1,14 @@
+[
+  {
+    "trend_arrow": "NOT_COMPUTABLE", 
+    "display_time": "2016-07-17T11:40:26-04:00", 
+    "system_time": "2016-07-17T19:40:27", 
+    "direction": "NOT COMPUTABLE", 
+    "dateString": "2016-07-17T11:40:26-04:00", 
+    "date": 1468770026000, 
+    "device": "openaps://cgm", 
+    "sgv": 5, 
+    "type": "sgv", 
+    "glucose": 5
+  }
+]
