@@ -50,7 +50,7 @@
       "sensitivity": 50, 
       "_date": "78e90c1110"
     }, 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/523", 
     "insulin": "4", 
     "eventType": "Correction Bolus", 
     "duration": "0", 
@@ -93,7 +93,7 @@
       "sensitivity": 50, 
       "_date": "49e80c1110"
     }, 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/523", 
     "insulin": "2", 
     "eventType": "Correction Bolus", 
     "duration": "0", 
@@ -121,7 +121,7 @@
       "_date": "79e00b5110"
     }, 
     "created_at": "2016-07-17T11:32:57-04:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/523", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-07-17T11:32:57-04:00", 
@@ -150,7 +150,7 @@
       "_date": "7ad10b5110"
     }, 
     "created_at": "2016-07-17T11:17:58-04:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/523", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-07-17T11:17:58-04:00", 
@@ -179,7 +179,7 @@
       "_date": "7bc20b5110"
     }, 
     "created_at": "2016-07-17T11:02:59-04:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/523", 
     "rate": 0, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-07-17T11:02:59-04:00", 
@@ -208,7 +208,7 @@
       "_date": "44f00a5110"
     }, 
     "created_at": "2016-07-17T10:48:04-04:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/523", 
     "rate": 0.125, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-07-17T10:48:04-04:00", 
@@ -237,7 +237,7 @@
       "_date": "41cd055110"
     }, 
     "created_at": "2016-07-17T05:13:01-04:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/523", 
     "rate": 0.75, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-07-17T05:13:01-04:00", 
@@ -266,7 +266,7 @@
       "_date": "40f5045110"
     }, 
     "created_at": "2016-07-17T04:53:00-04:00", 
-    "enteredBy": "openaps://medtronic/", 
+    "enteredBy": "openaps://medtronic/523", 
     "rate": 0.75, 
     "eventType": "Temp Basal", 
     "timestamp": "2016-07-17T04:53:00-04:00", 
