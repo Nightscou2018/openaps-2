@@ -7,7 +7,7 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-17T15:43:29.000Z", 
+      "timestamp": "2016-07-17T15:48:30.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
@@ -17,7 +17,7 @@
   "openaps": {
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-07-17T15:43:50.000Z", 
+      "timestamp": "2016-07-17T15:48:52.000Z", 
       "activity": 0, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
