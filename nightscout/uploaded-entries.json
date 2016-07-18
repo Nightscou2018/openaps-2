@@ -22,5 +22,17 @@
     "sgv": 85, 
     "type": "sgv", 
     "glucose": 85
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-07-17T21:20:24-04:00", 
+    "system_time": "2016-07-18T05:20:25", 
+    "direction": "Flat", 
+    "dateString": "2016-07-17T21:20:24-04:00", 
+    "date": 1468804824000, 
+    "device": "openaps://cgm", 
+    "sgv": 101, 
+    "type": "sgv", 
+    "glucose": 101
   }
 ]
