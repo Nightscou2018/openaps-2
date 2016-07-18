@@ -1,5 +1,86 @@
 [
   {
+    "_type": "Prime", 
+    "type": "manual", 
+    "_description": "Prime 2016-07-17T23:51:35 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-07-17T23:51:35", 
+    "_body": "", 
+    "fixed": 0.0, 
+    "_head": "030000003f", 
+    "amount": 6.3, 
+    "_date": "63f3371110"
+  }, 
+  {
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-07-17T23:49:35 head[2], body[0] op[0x21]", 
+    "timestamp": "2016-07-17T23:49:35", 
+    "_body": "", 
+    "_head": "2100", 
+    "_date": "63f1171110"
+  }, 
+  {
+    "programmed": 2.0, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-17T23:47:44 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-17T23:47:44", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.5, 
+            "age": 75
+          }, 
+          {
+            "amount": 0.5, 
+            "age": 95
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 115
+          }, 
+          {
+            "amount": 4.75, 
+            "age": 265
+          }, 
+          {
+            "amount": 2.25, 
+            "age": 275
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c11144bc0145fc02873c0be09d05a13d0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100500050002000", 
+    "amount": 2.0, 
+    "unabsorbed": 0.8, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "6cef371110"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 211, 
+    "bg_target_high": 120, 
+    "_description": "BolusWizard 2016-07-17T23:47:44 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-17T23:47:44", 
+    "_body": "005000643278480000000020002878", 
+    "_head": "5bd3", 
+    "unabsorbed_insulin_total": 0.8, 
+    "correction_estimate": 1.8, 
+    "_date": "6cef171110", 
+    "bolus_estimate": 1.0, 
+    "bg_target_low": 120, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 50
+  }, 
+  {
     "_type": "CalBGForPH", 
     "_description": "CalBGForPH 2016-07-17T23:47:37 head[2], body[0] op[0x0a]", 
     "timestamp": "2016-07-17T23:47:37", 
