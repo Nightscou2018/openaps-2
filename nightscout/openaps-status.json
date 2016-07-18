@@ -7,7 +7,7 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-18T10:43:29.000Z", 
+      "timestamp": "2016-07-18T10:48:29.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
@@ -16,20 +16,18 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 129, 
+      "bg": 126, 
       "temp": "absolute", 
-      "snoozeBG": 107, 
-      "timestamp": "2016-07-18T10:43:52.000Z", 
-      "rate": 0, 
-      "reason": "Eventual BG 107<120, setting -0.29U/hr", 
-      "eventualBG": 107, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 120 Deviation: -22 BGI: 0", 
-      "tick": -4
+      "snoozeBG": 106, 
+      "timestamp": "2016-07-18T10:48:53.000Z", 
+      "reason": "Eventual BG 106<120, setting -0.37U/hr, but 27m left and 0 ~ req 0U/hr: no action required", 
+      "eventualBG": 106, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 120 Deviation: -20 BGI: 0", 
+      "tick": -3
     }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-07-18T10:43:52.000Z", 
+      "timestamp": "2016-07-18T10:48:53.000Z", 
       "activity": 0, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
@@ -37,17 +35,28 @@
       "iob": 0
     }, 
     "enacted": {
-      "bg": 129, 
+      "bg": 126, 
       "temp": "absolute", 
-      "snoozeBG": 107, 
-      "recieved": true, 
-      "reason": "Eventual BG 107<120, setting -0.29U/hr", 
-      "rate": 0, 
-      "eventualBG": 107, 
-      "timestamp": "2016-07-18T10:43:56.000Z", 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 120 Deviation: -22 BGI: 0", 
-      "tick": -4
+      "missing": [
+        "duration", 
+        "rate"
+      ], 
+      "timestamp": "2016-07-18T10:48:56.000Z", 
+      "snoozeBG": 106, 
+      "reason": "Eventual BG 106<120, setting -0.37U/hr, but 27m left and 0 ~ req 0U/hr: no action required", 
+      "eventualBG": 106, 
+      "error": "missing required input fields", 
+      "input": {
+        "bg": 126, 
+        "temp": "absolute", 
+        "snoozeBG": 106, 
+        "reason": "Eventual BG 106<120, setting -0.37U/hr, but 27m left and 0 ~ req 0U/hr: no action required", 
+        "eventualBG": 106, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 120 Deviation: -20 BGI: 0", 
+        "tick": -3
+      }, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 120 Deviation: -20 BGI: 0", 
+      "tick": -3
     }
   }
 }
