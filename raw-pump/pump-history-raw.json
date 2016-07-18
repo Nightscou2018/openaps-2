@@ -1,16 +1,249 @@
 [
   {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "bg_target_high": 100, 
-    "_description": "BolusWizard 2016-07-18T08:42:26 head[2], body[15] op[0x5b]", 
+    "_type": "OldBolusWizardChange", 
+    "stale": {
+      "insulin_sensitivies": [
+        {
+          "i": 0, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 1, 
+          "_offset": 0, 
+          "sensitivity": 50, 
+          "offset": 0
+        }, 
+        {
+          "i": 2, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 3, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 4, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 5, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 6, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 7, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }
+      ], 
+      "_head": "0b00010101 0b00110001", 
+      "head": "1531", 
+      "bg_targets": [
+        {
+          "high": 120, 
+          "_offset": 0, 
+          "low": 120, 
+          "offset": 0
+        }, 
+        {
+          "high": 100, 
+          "_offset": 14, 
+          "low": 100, 
+          "offset": 420
+        }, 
+        {
+          "high": 120, 
+          "_offset": 46, 
+          "low": 120, 
+          "offset": 1380
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }
+      ], 
+      "carb_ratios": [
+        {
+          "q": 0, 
+          "start": "00:00:00", 
+          "r": 100, 
+          "ratio": 10.0, 
+          "offset": 0, 
+          "i": 0, 
+          "x": 0
+        }
+      ]
+    }, 
+    "_description": "OldBolusWizardChange 2016-07-18T08:44:28 head[2], body[137] op[0x5a]", 
+    "timestamp": "2016-07-18T08:44:28", 
+    "_body": "15310000640000000000000000000000000000000000000000000000003200000000000000000000000000000078780e64642e787800000000000000000000000000000015310000640000000000000000000000000000000000000000000000003200000000000000000000000000000078780e505014787800000000000000000000000000000033", 
+    "changed": {
+      "insulin_sensitivies": [
+        {
+          "i": 0, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 1, 
+          "_offset": 0, 
+          "sensitivity": 50, 
+          "offset": 0
+        }, 
+        {
+          "i": 2, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 3, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 4, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 5, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 6, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }, 
+        {
+          "i": 7, 
+          "_offset": 0, 
+          "sensitivity": 0, 
+          "offset": 0
+        }
+      ], 
+      "_head": "0b00010101 0b00110001", 
+      "head": "1531", 
+      "bg_targets": [
+        {
+          "high": 120, 
+          "_offset": 0, 
+          "low": 120, 
+          "offset": 0
+        }, 
+        {
+          "high": 80, 
+          "_offset": 14, 
+          "low": 80, 
+          "offset": 420
+        }, 
+        {
+          "high": 120, 
+          "_offset": 20, 
+          "low": 120, 
+          "offset": 600
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }, 
+        {
+          "high": 0, 
+          "_offset": 0, 
+          "low": 0, 
+          "offset": 0
+        }
+      ], 
+      "carb_ratios": [
+        {
+          "q": 0, 
+          "start": "00:00:00", 
+          "r": 100, 
+          "ratio": 10.0, 
+          "offset": 0, 
+          "i": 0, 
+          "x": 0
+        }
+      ]
+    }, 
+    "_head": "5a0f", 
+    "tail": 51, 
+    "_date": "5cec081210"
+  }, 
+  {
+    "programmed": 1.2, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-18T08:42:26 head[8], body[0] op[0x01]", 
     "timestamp": "2016-07-18T08:42:26", 
-    "_body": "005000643264000000000000000064", 
-    "_head": "5b00", 
-    "unabsorbed_insulin_total": 0.0, 
-    "correction_estimate": 0.0, 
-    "_date": "5aea081210", 
-    "bolus_estimate": 0.0, 
+    "_body": "", 
     "appended": [
       {
         "_type": "UnabsorbedInsulinBolus", 
@@ -26,6 +259,25 @@
         "_date": ""
       }
     ], 
+    "_head": "0100300030000000", 
+    "amount": 1.2, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "5aea281210"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 100, 
+    "_description": "BolusWizard 2016-07-18T08:42:26 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-18T08:42:26", 
+    "_body": "005000643264000000000000000064", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "5aea081210", 
+    "bolus_estimate": 0.0, 
     "bg_target_low": 100, 
     "carb_ratio": 10.0, 
     "food_estimate": 0.0, 
