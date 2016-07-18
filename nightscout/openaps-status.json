@@ -7,11 +7,11 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-18T02:48:29.000Z", 
+      "timestamp": "2016-07-18T02:53:29.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 8.7, 
+    "reservoir": 8.5, 
     "clock": "2016-07-15T18:26:37-04:00"
   }, 
   "openaps": {
@@ -24,15 +24,6 @@
       "eventualBG": 189, 
       "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 100 Deviation: 6 BGI: 0", 
       "tick": "+2"
-    }, 
-    "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2016-07-18T02:48:53.000Z", 
-      "activity": 0, 
-      "basaliob": 0, 
-      "hightempinsulin": 0, 
-      "bolussnooze": 0, 
-      "iob": 0
     }, 
     "enacted": {
       "bg": 183, 
