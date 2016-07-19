@@ -1,1 +1,1 @@
-{"temp":"absolute","bg":125,"tick":-4,"eventualBG":115,"snoozeBG":115,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 113 Deviation: -10 BGI: 0","reason":"Eventual BG 115>100 but Avg. Delta -4.00 < Exp. Delta -0.1; setting current basal of 0.7 as temp. Setting neutral temp basal of 0.7U/hr","duration":30,"rate":0.7}
+{"temp":"absolute","bg":107,"tick":-5,"eventualBG":71,"snoozeBG":71,"mealAssist":"Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 113 Deviation: -36 BGI: 0","reason":"Eventual BG 71<100, setting -2.62U/hr","duration":30,"rate":0}
