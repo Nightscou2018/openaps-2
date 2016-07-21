@@ -1,5 +1,36 @@
 [
   {
+    "programmed": 1.0, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-21T08:00:43 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-21T08:00:43-04:00", 
+    "_body": "", 
+    "_head": "0100280028000000", 
+    "amount": 1.0, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "6bc0281510"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2016-07-21T08:00:43 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-21T08:00:43-04:00", 
+    "_body": "005000643250000000000000000050", 
+    "carb_input": 0, 
+    "bg_target_high": 80, 
+    "sensitivity": 50, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 0.0, 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "bg_target_low": 80, 
+    "_head": "5b00", 
+    "bolus_estimate": 0.0, 
+    "_date": "6bc0081510"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-07-21T07:53:09 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-21T07:53:09-04:00", 
@@ -471,23 +502,5 @@
     "rate": 0.775, 
     "offset": 0, 
     "_date": "51c8001510"
-  }, 
-  {
-    "_type": "Sara6E", 
-    "_description": "Sara6E 2016-07-21T00:00:00 head[1], body[49] op[0x6e]", 
-    "timestamp": "2016-07-21T00:00:00-04:00", 
-    "_body": "050000000000000003f602f24a01041a000000000104000000000005000000000000000000000000000000000000000000", 
-    "_head": "6e", 
-    "valid_date": "2016-07-20", 
-    "_date": "7490"
-  }, 
-  {
-    "_type": "ResultDailyTotal", 
-    "_description": "ResultDailyTotal 2016-07-21T00:00:00 head[5], body[3] op[0x07]", 
-    "timestamp": "2016-07-21T00:00:00-04:00", 
-    "_body": "000000", 
-    "_head": "07000003f6", 
-    "valid_date": "2016-07-20", 
-    "_date": "7490"
   }
 ]
