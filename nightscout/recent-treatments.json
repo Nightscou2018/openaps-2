@@ -1,64 +1,30 @@
 [
   {
-    "carbs": "0", 
-    "ratio": "10", 
-    "bolus": {
-      "_type": "Bolus", 
-      "_description": "Bolus 2016-07-20T19:50:20 head[8], body[0] op[0x01]", 
-      "timestamp": "2016-07-20T19:50:20-04:00", 
-      "_body": "", 
-      "appended": [
-        {
-          "_type": "UnabsorbedInsulinBolus", 
-          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
-          "_body": "", 
-          "_head": "5c0814b6d028ded0", 
-          "data": [
-            {
-              "amount": 0.5, 
-              "age": 438
-            }, 
-            {
-              "amount": 1, 
-              "age": 478
-            }
-          ], 
-          "_date": ""
-        }
-      ], 
-      "programmed": 2, 
-      "_head": "0100500050000000", 
-      "amount": 2, 
-      "unabsorbed": 0, 
-      "duration": 0, 
-      "type": "normal", 
-      "_date": "54f2331410"
-    }, 
-    "timestamp": "2016-07-20T19:50:19-04:00", 
-    "created_at": "2016-07-20T19:50:19-04:00", 
-    "wizard": {
-      "_type": "BolusWizard", 
-      "bg": 0, 
-      "bg_target_low": 100, 
-      "_description": "BolusWizard 2016-07-20T19:50:19 head[2], body[15] op[0x5b]", 
-      "timestamp": "2016-07-20T19:50:19-04:00", 
-      "_body": "00500064326400000000000000007d", 
-      "bg_target_high": 125, 
-      "carb_ratio": 10, 
-      "food_estimate": 0, 
-      "unabsorbed_insulin_total": 0, 
-      "correction_estimate": 0, 
-      "carb_input": 0, 
-      "_head": "5b00", 
-      "bolus_estimate": 0, 
-      "sensitivity": 50, 
-      "_date": "53f2131410"
-    }, 
+    "_type": "ChangeBasalProfile_new_profile", 
+    "_description": "ChangeBasalProfile_new_profile 2016-07-20T20:12:28 head[2], body[145] op[0x09]", 
+    "notes": "ChangeBasalProfile_new_profile 523 ", 
+    "timestamp": "2016-07-20T20:12:28-04:00", 
+    "_body": "0020000e26001820001e1c0028200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
+    "_head": "0905", 
     "enteredBy": "openaps://medtronic/523", 
-    "insulin": "2", 
-    "eventType": "Correction Bolus", 
-    "duration": "0", 
-    "notes": "Normal bolus with wizard.\nProgrammed bolus 2\nDelivered bolus 2\nPercent delivered:  100%\nFood estimate 0\nCorrection estimate 0\nBolus estimate 0\nTarget low 100\nTarget high 125\nHypothetical glucose delta -100", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Correction Bolus"
+    "rate": "offset", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeBasalProfile_new_profile", 
+    "eventType": "Note", 
+    "created_at": "2016-07-20T20:12:28-04:00", 
+    "_date": "5ccc141410"
+  }, 
+  {
+    "_type": "ChangeBasalProfile_old_profile", 
+    "_description": "ChangeBasalProfile_old_profile 2016-07-20T20:12:28 head[2], body[145] op[0x08]", 
+    "notes": "ChangeBasalProfile_old_profile 523 ", 
+    "timestamp": "2016-07-20T20:12:28-04:00", 
+    "_body": "001e000e26001820001e1c0028200000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000", 
+    "_head": "0805", 
+    "enteredBy": "openaps://medtronic/523", 
+    "rate": "offset", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/ChangeBasalProfile_old_profile", 
+    "eventType": "Note", 
+    "created_at": "2016-07-20T20:12:28-04:00", 
+    "_date": "5ccc141410"
   }
 ]
