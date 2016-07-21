@@ -1,5 +1,84 @@
 [
   {
+    "programmed": 7.0, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-21T12:02:34 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-21T12:02:34", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.0, 
+            "age": 250
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0528fac0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0101180118000000", 
+    "amount": 7.0, 
+    "unabsorbed": 0.0, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "62c22c1510"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 125, 
+    "_description": "BolusWizard 2016-07-21T12:02:34 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-21T12:02:34", 
+    "_body": "46500064326400011800000001187d", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "62c20c1510", 
+    "bolus_estimate": 7.0, 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[5], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 1.0, 
+            "age": 250
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c0528fac0", 
+        "_date": ""
+      }
+    ], 
+    "bg_target_low": 100, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 7.0, 
+    "carb_input": 70, 
+    "sensitivity": 50
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 125, 
+    "_description": "BolusWizard 2016-07-21T12:02:21 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-21T12:02:21", 
+    "_body": "00500064326400000000000000007d", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "55c20c1510", 
+    "bolus_estimate": 0.0, 
+    "bg_target_low": 100, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 50
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-07-21T11:53:11 head[2], body[0] op[0x16]", 
