@@ -166,17 +166,5 @@
     "date": 1469119483000.0, 
     "type": "sgv", 
     "glucose": 139
-  }, 
-  {
-    "trend_arrow": "45_UP", 
-    "display_time": "2016-07-21T12:39:42-04:00", 
-    "direction": "FortyFiveUp", 
-    "system_time": "2016-07-21T20:40:13", 
-    "sgv": 131, 
-    "dateString": "2016-07-21T12:39:42-04:00", 
-    "device": "openaps://cgm", 
-    "date": 1469119182000.0, 
-    "type": "sgv", 
-    "glucose": 131
   }
 ]
