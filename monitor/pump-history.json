@@ -1,5 +1,16 @@
 [
   {
+    "_type": "BasalProfileStart", 
+    "_description": "BasalProfileStart 2016-07-21T05:03:02 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-07-21T05:03:02-04:00", 
+    "_body": "0a1c00", 
+    "profile_index": 1, 
+    "_head": "7b01", 
+    "rate": 0.7, 
+    "offset": 18000000, 
+    "_date": "42c3051510"
+  }, 
+  {
     "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-07-21T04:33:02 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-21T04:33:02-04:00", 
@@ -589,16 +600,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "49c3155410"
-  }, 
-  {
-    "_type": "BasalProfileStart", 
-    "_description": "BasalProfileStart 2016-07-20T20:58:06 head[2], body[3] op[0x7b]", 
-    "timestamp": "2016-07-20T20:58:06-04:00", 
-    "_body": "282000", 
-    "profile_index": 5, 
-    "_head": "7b05", 
-    "rate": 0.8, 
-    "offset": 72000000, 
-    "_date": "46fa141410"
   }
 ]
