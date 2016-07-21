@@ -24,15 +24,15 @@
     "glucose": 90
   }, 
   {
-    "trend_arrow": "45_UP", 
-    "display_time": "2016-07-21T04:49:44-04:00", 
-    "system_time": "2016-07-21T12:50:14", 
-    "direction": "FortyFiveUp", 
-    "dateString": "2016-07-21T04:49:44-04:00", 
-    "date": 1469090984000, 
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-07-21T04:54:43-04:00", 
+    "system_time": "2016-07-21T12:55:14", 
+    "direction": "Flat", 
+    "dateString": "2016-07-21T04:54:43-04:00", 
+    "date": 1469091283000, 
     "device": "openaps://cgm", 
-    "sgv": 107, 
+    "sgv": 111, 
     "type": "sgv", 
-    "glucose": 107
+    "glucose": 111
   }
 ]
