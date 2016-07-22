@@ -1,1 +1,31 @@
-[]
+[
+  {
+    "created_at": "2016-07-21T21:36:22-04:00", 
+    "_type": "Prime", 
+    "_description": "Prime 2016-07-21T21:36:22 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-07-21T21:36:22-04:00", 
+    "notes": "Prime 523 ", 
+    "_head": "0300000057", 
+    "enteredBy": "openaps://medtronic/523", 
+    "amount": 8.7, 
+    "_date": "56e4351510", 
+    "eventType": "Note", 
+    "fixed": 0, 
+    "type": "manual", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Prime"
+  }, 
+  {
+    "created_at": "2016-07-21T21:34:57-04:00", 
+    "_type": "Rewind", 
+    "_description": "Rewind 2016-07-21T21:34:57 head[2], body[0] op[0x21]", 
+    "timestamp": "2016-07-21T21:34:57-04:00", 
+    "notes": "Rewind 523 ", 
+    "_head": "2100", 
+    "enteredBy": "openaps://medtronic/523", 
+    "_date": "79e2151510", 
+    "eventType": "Note", 
+    "_body": "", 
+    "medtronic": "mm://openaps/mm-format-ns-treatments/Rewind"
+  }
+]
