@@ -7,17 +7,17 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-23T16:33:31.000Z", 
+      "timestamp": "2016-07-23T16:38:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 46.425, 
+    "reservoir": 46.375, 
     "clock": "2016-07-15T18:26:37-04:00"
   }, 
   "openaps": {
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-07-23T16:33:52.000Z", 
+      "timestamp": "2016-07-23T16:38:55.000Z", 
       "activity": 0, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
