@@ -7,7 +7,7 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-23T19:08:29.000Z", 
+      "timestamp": "2016-07-23T19:13:29.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
@@ -16,20 +16,20 @@
   }, 
   "openaps": {
     "suggested": {
-      "bg": 56, 
+      "bg": 62, 
       "temp": "absolute", 
-      "snoozeBG": 68, 
-      "timestamp": "2016-07-23T19:08:54.000Z", 
-      "rate": 0, 
-      "reason": "BG 56<75", 
-      "eventualBG": 68, 
+      "snoozeBG": 76, 
+      "timestamp": "2016-07-23T19:13:56.000Z", 
+      "rate": 0.7, 
+      "reason": "BG 62<75, delta 6>0; setting current basal of 0.7 as temp. Setting neutral temp basal of 0.7U/hr", 
+      "eventualBG": 76, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 113 Deviation: 12 BGI: 0", 
-      "tick": "+4"
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 113 Deviation: 14 BGI: 0", 
+      "tick": "+6"
     }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-07-23T19:08:53.000Z", 
+      "timestamp": "2016-07-23T19:13:56.000Z", 
       "activity": 0, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
@@ -37,17 +37,17 @@
       "iob": 0
     }, 
     "enacted": {
-      "bg": 56, 
+      "bg": 62, 
       "temp": "absolute", 
-      "snoozeBG": 68, 
+      "snoozeBG": 76, 
       "recieved": true, 
-      "reason": "BG 56<75", 
-      "rate": 0, 
-      "eventualBG": 68, 
-      "timestamp": "2016-07-23T19:08:58.000Z", 
+      "reason": "BG 62<75, delta 6>0; setting current basal of 0.7 as temp. Setting neutral temp basal of 0.7U/hr", 
+      "rate": 0.675, 
+      "eventualBG": 76, 
+      "timestamp": "2016-07-23T19:14:00.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 113 Deviation: 12 BGI: 0", 
-      "tick": "+4"
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 113 Deviation: 14 BGI: 0", 
+      "tick": "+6"
     }
   }
 }
