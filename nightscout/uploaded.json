@@ -1,151 +1,31 @@
 [
   {
-    "created_at": "2016-07-23T15:02:00-04:00", 
-    "_type": "LowBattery", 
-    "_description": "LowBattery 2016-07-23T15:02:00 head[2], body[0] op[0x19]", 
-    "timestamp": "2016-07-23T15:02:00-04:00", 
-    "notes": "LowBattery 523 ", 
-    "_head": "1900", 
-    "enteredBy": "openaps://medtronic/523", 
-    "_date": "40c20f1710", 
-    "eventType": "Note", 
-    "_body": "", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/LowBattery"
-  }, 
-  {
     "raw_rate": {
       "_type": "TempBasal", 
       "temp": "absolute", 
-      "_description": "TempBasal 2016-07-23T15:00:25 head[2], body[1] op[0x33]", 
-      "timestamp": "2016-07-23T15:00:25-04:00", 
+      "_description": "TempBasal 2016-07-23T15:08:10 head[2], body[1] op[0x33]", 
+      "timestamp": "2016-07-23T15:08:10-04:00", 
       "_body": "00", 
       "_head": "3300", 
       "rate": 0, 
-      "_date": "59c00f1710"
+      "_date": "4ac80f5710"
     }, 
-    "timestamp": "2016-07-23T15:00:25-04:00", 
+    "timestamp": "2016-07-23T15:08:10-04:00", 
     "raw_duration": {
       "_type": "TempBasalDuration", 
-      "_description": "TempBasalDuration 2016-07-23T15:00:25 head[2], body[0] op[0x16]", 
-      "timestamp": "2016-07-23T15:00:25-04:00", 
+      "_description": "TempBasalDuration 2016-07-23T15:08:10 head[2], body[0] op[0x16]", 
+      "timestamp": "2016-07-23T15:08:10-04:00", 
       "_body": "", 
-      "_head": "1600", 
-      "duration (min)": 0, 
-      "_date": "59c00f1710"
+      "_head": "1601", 
+      "duration (min)": 30, 
+      "_date": "4ac80f5710"
     }, 
-    "created_at": "2016-07-23T15:00:25-04:00", 
+    "created_at": "2016-07-23T15:08:10-04:00", 
     "enteredBy": "openaps://medtronic/523", 
     "rate": 0, 
     "eventType": "Temp Basal", 
-    "duration": 0, 
+    "duration": 30, 
     "medtronic": "mm://openaps/mm-format-ns-treatments/Temp Basal", 
     "absolute": 0
-  }, 
-  {
-    "created_at": "2016-07-23T15:04:17-04:00", 
-    "_type": "Battery", 
-    "_description": "Battery 2016-07-23T15:04:17 head[2], body[0] op[0x1a]", 
-    "timestamp": "2016-07-23T15:04:17-04:00", 
-    "notes": "Battery 523 ", 
-    "_head": "1a01", 
-    "enteredBy": "openaps://medtronic/523", 
-    "_date": "51c40f1710", 
-    "eventType": "Note", 
-    "_body": "", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery"
-  }, 
-  {
-    "created_at": "2016-07-23T15:03:56-04:00", 
-    "_type": "Battery", 
-    "_description": "Battery 2016-07-23T15:03:56 head[2], body[0] op[0x1a]", 
-    "timestamp": "2016-07-23T15:03:56-04:00", 
-    "notes": "Battery 523 ", 
-    "_head": "1a00", 
-    "enteredBy": "openaps://medtronic/523", 
-    "_date": "78c30f1710", 
-    "eventType": "Note", 
-    "_body": "", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Battery"
-  }, 
-  {
-    "carbs": 35, 
-    "ratio": "10", 
-    "bolus": {
-      "_type": "Bolus", 
-      "_description": "Bolus 2016-07-23T14:56:02 head[8], body[0] op[0x01]", 
-      "timestamp": "2016-07-23T14:56:02-04:00", 
-      "_body": "", 
-      "appended": [
-        {
-          "_type": "UnabsorbedInsulinBolus", 
-          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
-          "_body": "", 
-          "_head": "5c0828a4c0b4d6c0", 
-          "data": [
-            {
-              "amount": 1, 
-              "age": 164
-            }, 
-            {
-              "amount": 4.5, 
-              "age": 214
-            }
-          ], 
-          "_date": ""
-        }
-      ], 
-      "programmed": 3.5, 
-      "duration": 0, 
-      "amount": 3.5, 
-      "unabsorbed": 0.1, 
-      "_head": "01008c008c000400", 
-      "type": "normal", 
-      "_date": "42f82e1710"
-    }, 
-    "timestamp": "2016-07-23T14:56:02-04:00", 
-    "created_at": "2016-07-23T14:56:02-04:00", 
-    "wizard": {
-      "_type": "BolusWizard", 
-      "bg": 0, 
-      "_description": "BolusWizard 2016-07-23T14:56:02 head[2], body[15] op[0x5b]", 
-      "bg_target_low": 100, 
-      "_body": "23500064326400008c000000008c7d", 
-      "appended": [
-        {
-          "_type": "UnabsorbedInsulinBolus", 
-          "_description": "UnabsorbedInsulinBolus unknown head[8], body[0] op[0x5c]", 
-          "_body": "", 
-          "_head": "5c0828a3c0b4d5c0", 
-          "data": [
-            {
-              "amount": 1, 
-              "age": 163
-            }, 
-            {
-              "amount": 4.5, 
-              "age": 213
-            }
-          ], 
-          "_date": ""
-        }
-      ], 
-      "bg_target_high": 125, 
-      "sensitivity": 50, 
-      "carb_input": 35, 
-      "carb_ratio": 10, 
-      "food_estimate": 3.5, 
-      "unabsorbed_insulin_total": 0, 
-      "correction_estimate": 0, 
-      "timestamp": "2016-07-23T14:56:02-04:00", 
-      "_head": "5b00", 
-      "bolus_estimate": 3.5, 
-      "_date": "42f80e1710"
-    }, 
-    "enteredBy": "openaps://medtronic/523", 
-    "insulin": 3.5, 
-    "eventType": "Meal Bolus", 
-    "duration": 0, 
-    "notes": "Normal bolus with wizard.\nProgrammed bolus 3.5\nDelivered bolus 3.5\nPercent delivered:  100%\nFood estimate 3.5\nCorrection estimate 0\nBolus estimate 3.5\nTarget low 100\nTarget high 125\nHypothetical glucose delta -175", 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/Meal Bolus"
   }
 ]
