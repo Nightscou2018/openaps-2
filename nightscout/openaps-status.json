@@ -7,29 +7,29 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-24T12:48:30.000Z", 
+      "timestamp": "2016-07-24T12:53:29.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 17.3, 
+    "reservoir": 17.25, 
     "clock": "2016-07-15T18:26:37-04:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 97, 
+      "bg": 94, 
       "temp": "absolute", 
-      "snoozeBG": 87, 
-      "timestamp": "2016-07-24T12:48:51.000Z", 
-      "rate": 0.7, 
-      "reason": "Eventual BG 87<90, setting 0.71U/hr", 
-      "eventualBG": 87, 
+      "snoozeBG": 82, 
+      "timestamp": "2016-07-24T12:53:48.000Z", 
+      "rate": 0.3, 
+      "reason": "Eventual BG 82<90, setting 0.31U/hr", 
+      "eventualBG": 82, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 90 Deviation: -10 BGI: 0", 
-      "tick": -2
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 90 Deviation: -12 BGI: 0", 
+      "tick": -3
     }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-07-24T12:48:50.000Z", 
+      "timestamp": "2016-07-24T12:53:47.000Z", 
       "activity": 0, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
@@ -37,17 +37,17 @@
       "iob": 0
     }, 
     "enacted": {
-      "bg": 97, 
+      "bg": 94, 
       "temp": "absolute", 
-      "snoozeBG": 87, 
+      "snoozeBG": 82, 
       "recieved": true, 
-      "reason": "Eventual BG 87<90, setting 0.71U/hr", 
-      "rate": 0.675, 
-      "eventualBG": 87, 
-      "timestamp": "2016-07-24T12:48:55.000Z", 
+      "reason": "Eventual BG 82<90, setting 0.31U/hr", 
+      "rate": 0.275, 
+      "eventualBG": 82, 
+      "timestamp": "2016-07-24T12:53:52.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 90 Deviation: -10 BGI: 0", 
-      "tick": -2
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 90 Deviation: -12 BGI: 0", 
+      "tick": -3
     }
   }
 }
