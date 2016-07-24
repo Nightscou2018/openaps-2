@@ -1,11 +1,11 @@
 [
   {
     "trend_arrow": "FLAT", 
-    "display_time": "2016-07-24T00:35:14-04:00", 
-    "system_time": "2016-07-24T08:35:45", 
+    "display_time": "2016-07-24T00:40:13-04:00", 
+    "system_time": "2016-07-24T08:40:43", 
     "direction": "Flat", 
-    "dateString": "2016-07-24T00:35:14-04:00", 
-    "date": 1469334914000, 
+    "dateString": "2016-07-24T00:40:13-04:00", 
+    "date": 1469335213000, 
     "device": "openaps://cgm", 
     "sgv": 126, 
     "type": "sgv", 
