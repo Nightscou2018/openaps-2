@@ -2,6 +2,25 @@
   {
     "_type": "TempBasalDuration", 
     "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-07-24T07:13:07 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-07-24T07:13:07", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "47cd075810"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-07-24T07:13:07 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-07-24T07:13:07", 
+    "_body": "00", 
+    "_head": "3325", 
+    "rate": 0.925, 
+    "_date": "47cd075810"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
     "_description": "TempBasalDuration 2016-07-24T07:08:10 head[2], body[0] op[0x16]", 
     "timestamp": "2016-07-24T07:08:10", 
     "_body": "", 
@@ -617,14 +636,5 @@
     "_head": "3364", 
     "rate": 2.5, 
     "_date": "48cd175710"
-  }, 
-  {
-    "_type": "ChangeMaxBasal", 
-    "_description": "ChangeMaxBasal 2016-07-23T23:12:57 head[2], body[0] op[0x2c]", 
-    "timestamp": "2016-07-23T23:12:57", 
-    "_body": "", 
-    "maxBasal": 2.5, 
-    "_head": "2c64", 
-    "_date": "79cc171710"
   }
 ]
