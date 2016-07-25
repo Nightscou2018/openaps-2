@@ -1,14 +1,14 @@
 [
   {
-    "trend_arrow": "45_UP", 
-    "display_time": "2016-07-25T05:40:08-04:00", 
-    "system_time": "2016-07-25T13:40:39", 
-    "direction": "FortyFiveUp", 
-    "sgv": 136, 
-    "dateString": "2016-07-25T05:40:08-04:00", 
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-07-25T05:45:08-04:00", 
+    "system_time": "2016-07-25T13:45:38", 
+    "direction": "Flat", 
+    "sgv": 140, 
+    "dateString": "2016-07-25T05:45:08-04:00", 
     "device": "openaps://cgm", 
-    "date": 1469439608000, 
+    "date": 1469439908000, 
     "type": "sgv", 
-    "glucose": 136
+    "glucose": 140
   }
 ]
