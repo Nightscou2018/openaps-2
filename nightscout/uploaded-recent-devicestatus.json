@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-07-26T03:49:09.691Z", 
+    "created_at": "2016-07-26T03:54:06.828Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,28 +9,28 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-07-26T03:48:31.000Z", 
+        "timestamp": "2016-07-26T03:53:30.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 82.325, 
+      "reservoir": 82.275, 
       "clock": "2016-07-15T18:26:37-04:00"
     }, 
-    "_id": "5796ddb56738634d10834a65", 
+    "_id": "5796dede6738634d10834a66", 
     "openaps": {
       "suggested": {
-        "bg": 107, 
+        "bg": 110, 
         "temp": "absolute", 
-        "snoozeBG": 116, 
-        "timestamp": "2016-07-26T03:48:51.000Z", 
-        "reason": "116-116 in range: no temp required, temp 0.675 ~ req 0.7U/hr", 
-        "eventualBG": 116, 
+        "snoozeBG": 119, 
+        "timestamp": "2016-07-26T03:53:50.000Z", 
+        "reason": "119-119 in range: no temp required, temp 0.675 ~ req 0.7U/hr", 
+        "eventualBG": 119, 
         "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 113 Deviation: 9 BGI: 0", 
         "tick": "+3"
       }, 
       "iob": {
         "netbasalinsulin": 0, 
-        "timestamp": "2016-07-26T03:48:50.000Z", 
+        "timestamp": "2016-07-26T03:53:48.000Z", 
         "activity": 0, 
         "basaliob": 0, 
         "hightempinsulin": 0, 
@@ -38,23 +38,23 @@
         "iob": 0
       }, 
       "enacted": {
-        "bg": 107, 
+        "bg": 110, 
         "temp": "absolute", 
-        "snoozeBG": 116, 
-        "timestamp": "2016-07-26T03:48:54.000Z", 
+        "snoozeBG": 119, 
+        "timestamp": "2016-07-26T03:53:53.000Z", 
         "missing": [
           "duration", 
           "rate"
         ], 
-        "reason": "116-116 in range: no temp required, temp 0.675 ~ req 0.7U/hr", 
-        "eventualBG": 116, 
+        "reason": "119-119 in range: no temp required, temp 0.675 ~ req 0.7U/hr", 
+        "eventualBG": 119, 
         "error": "missing required input fields", 
         "input": {
-          "bg": 107, 
+          "bg": 110, 
           "temp": "absolute", 
-          "snoozeBG": 116, 
-          "reason": "116-116 in range: no temp required, temp 0.675 ~ req 0.7U/hr", 
-          "eventualBG": 116, 
+          "snoozeBG": 119, 
+          "reason": "119-119 in range: no temp required, temp 0.675 ~ req 0.7U/hr", 
+          "eventualBG": 119, 
           "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 113 Deviation: 9 BGI: 0", 
           "tick": "+3"
         }, 
