@@ -7,29 +7,29 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-27T08:43:30.000Z", 
+      "timestamp": "2016-07-27T08:48:30.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 49.975, 
+    "reservoir": 49.825, 
     "clock": "2016-07-15T18:26:37-04:00"
   }, 
   "openaps": {
     "suggested": {
-      "bg": 128, 
+      "bg": 138, 
       "temp": "absolute", 
-      "snoozeBG": 156, 
-      "timestamp": "2016-07-27T08:43:50.000Z", 
-      "rate": 1.95, 
-      "reason": "Eventual BG 156>=135, temp 1.375<1.97U/hr", 
-      "eventualBG": 156, 
+      "snoozeBG": 168, 
+      "timestamp": "2016-07-27T08:48:53.000Z", 
+      "rate": 2.45, 
+      "reason": "Eventual BG 168>=135, temp 1.95<2.45U/hr", 
+      "eventualBG": 168, 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: 28 BGI: 0", 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: 30 BGI: 0", 
       "tick": "+10"
     }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-07-27T08:43:49.000Z", 
+      "timestamp": "2016-07-27T08:48:52.000Z", 
       "activity": 0, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
@@ -37,16 +37,16 @@
       "iob": 0
     }, 
     "enacted": {
-      "bg": 128, 
+      "bg": 138, 
       "temp": "absolute", 
-      "snoozeBG": 156, 
+      "snoozeBG": 168, 
       "recieved": true, 
-      "reason": "Eventual BG 156>=135, temp 1.375<1.97U/hr", 
-      "rate": 1.95, 
-      "eventualBG": 156, 
-      "timestamp": "2016-07-27T08:43:56.000Z", 
+      "reason": "Eventual BG 168>=135, temp 1.95<2.45U/hr", 
+      "rate": 2.45, 
+      "eventualBG": 168, 
+      "timestamp": "2016-07-27T08:48:57.000Z", 
       "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: 28 BGI: 0", 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: 30 BGI: 0", 
       "tick": "+10"
     }
   }
