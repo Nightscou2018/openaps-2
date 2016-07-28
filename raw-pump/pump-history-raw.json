@@ -1,5 +1,27 @@
 [
   {
+    "_type": "BasalProfileStart", 
+    "offset": 39600000, 
+    "_description": "BasalProfileStart 2016-07-28T12:08:11 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-07-28T12:08:11", 
+    "_body": "161c00", 
+    "profile_index": 3, 
+    "_head": "7b03", 
+    "rate": 0.7, 
+    "_date": "4bc80c1c10"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "fixed", 
+    "_description": "Prime 2016-07-28T12:05:04 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-07-28T12:05:04", 
+    "_body": "", 
+    "fixed": 0.5, 
+    "_head": "0300050005", 
+    "amount": 0.5, 
+    "_date": "44c50c1c10"
+  }, 
+  {
     "_type": "Prime", 
     "type": "manual", 
     "_description": "Prime 2016-07-28T11:57:30 head[5], body[0] op[0x03]", 
