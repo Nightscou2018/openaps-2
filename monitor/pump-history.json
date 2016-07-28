@@ -1,10 +1,19 @@
 [
   {
-    "_type": "BolusWizard", 
-    "bg": 0, 
-    "_description": "BolusWizard 2016-07-27T22:43:13 head[2], body[15] op[0x5b]", 
-    "timestamp": "2016-07-27T22:43:13-04:00", 
-    "_body": "00500064326400000000000000007d", 
+    "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-07-27T23:08:18 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-07-27T23:08:18-04:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "52c8175b10"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-07-27T23:08:18 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-07-27T23:08:18-04:00", 
+    "_body": "00", 
     "appended": [
       {
         "_type": "UnabsorbedInsulinBolus", 
@@ -32,9 +41,19 @@
         "_date": ""
       }
     ], 
+    "_head": "331b", 
+    "rate": 0.675, 
+    "_date": "52c8175b10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "_description": "BolusWizard 2016-07-27T22:43:13 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-27T22:43:13-04:00", 
+    "_body": "00500064326400000000000000007d", 
+    "carb_input": 0, 
     "bg_target_high": 125, 
     "sensitivity": 50, 
-    "carb_input": 0, 
     "carb_ratio": 10.0, 
     "food_estimate": 0.0, 
     "unabsorbed_insulin_total": 0.0, 
@@ -788,43 +807,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "4fd70f5b10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-07-27T15:08:15 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-07-27T15:08:15-04:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "4fc80f5b10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-07-27T15:08:15 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-07-27T15:08:15-04:00", 
-    "_body": "00", 
-    "_head": "331b", 
-    "rate": 0.675, 
-    "_date": "4fc80f5b10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-07-27T14:48:19 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-07-27T14:48:19-04:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "53f00e5b10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-07-27T14:48:19 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-07-27T14:48:19-04:00", 
-    "_body": "00", 
-    "_head": "331b", 
-    "rate": 0.675, 
-    "_date": "53f00e5b10"
   }
 ]
