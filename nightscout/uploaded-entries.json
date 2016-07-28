@@ -118,5 +118,29 @@
     "sgv": 121, 
     "type": "sgv", 
     "glucose": 121
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-07-28T06:14:52-04:00", 
+    "system_time": "2016-07-28T14:15:23", 
+    "direction": "Flat", 
+    "dateString": "2016-07-28T06:14:52-04:00", 
+    "date": 1469700892000, 
+    "device": "openaps://cgm", 
+    "sgv": 119, 
+    "type": "sgv", 
+    "glucose": 119
+  }, 
+  {
+    "trend_arrow": "FLAT", 
+    "display_time": "2016-07-28T06:09:56-04:00", 
+    "system_time": "2016-07-28T14:10:27", 
+    "direction": "Flat", 
+    "dateString": "2016-07-28T06:09:56-04:00", 
+    "date": 1469700596000, 
+    "device": "openaps://cgm", 
+    "sgv": 120, 
+    "type": "sgv", 
+    "glucose": 120
   }
 ]
