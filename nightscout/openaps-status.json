@@ -3,11 +3,11 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.29
+      "voltage": 1.28
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-07-30T21:08:41.000Z", 
+      "timestamp": "2016-07-30T21:13:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
