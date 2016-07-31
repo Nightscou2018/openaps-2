@@ -1,5 +1,100 @@
 [
   {
+    "_type": "BasalProfileStart", 
+    "offset": 57600000, 
+    "_description": "BasalProfileStart 2016-07-30T19:58:16 head[2], body[3] op[0x7b]", 
+    "timestamp": "2016-07-30T19:58:16", 
+    "_body": "201c00", 
+    "profile_index": 5, 
+    "_head": "7b05", 
+    "rate": 0.7, 
+    "_date": "50fa131e10"
+  }, 
+  {
+    "programmed": 2.5, 
+    "_type": "Bolus", 
+    "_description": "Bolus 2016-07-30T19:54:15 head[8], body[0] op[0x01]", 
+    "timestamp": "2016-07-30T19:54:15", 
+    "_body": "", 
+    "appended": [
+      {
+        "_type": "UnabsorbedInsulinBolus", 
+        "_description": "UnabsorbedInsulinBolus unknown head[17], body[0] op[0x5c]", 
+        "data": [
+          {
+            "amount": 0.6, 
+            "age": 22
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 72
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 102
+          }, 
+          {
+            "amount": 1.0, 
+            "age": 192
+          }, 
+          {
+            "amount": 4.0, 
+            "age": 412
+          }
+        ], 
+        "_body": "", 
+        "_head": "5c111816c12848c02866c028c0c0a09cd0", 
+        "_date": ""
+      }
+    ], 
+    "_head": "0100640064013400", 
+    "amount": 2.5, 
+    "unabsorbed": 7.7, 
+    "duration": 0, 
+    "type": "normal", 
+    "_date": "4ff6331e10"
+  }, 
+  {
+    "_type": "BolusWizard", 
+    "bg": 0, 
+    "bg_target_high": 125, 
+    "_description": "BolusWizard 2016-07-30T19:54:15 head[2], body[15] op[0x5b]", 
+    "timestamp": "2016-07-30T19:54:15", 
+    "_body": "00500064325f00000000000000007d", 
+    "_head": "5b00", 
+    "unabsorbed_insulin_total": 0.0, 
+    "correction_estimate": 0.0, 
+    "_date": "4ff6131e10", 
+    "bolus_estimate": 0.0, 
+    "bg_target_low": 95, 
+    "carb_ratio": 10.0, 
+    "food_estimate": 0.0, 
+    "carb_input": 0, 
+    "sensitivity": 50
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "fixed", 
+    "_description": "Prime 2016-07-30T19:53:39 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-07-30T19:53:39", 
+    "_body": "", 
+    "fixed": 0.5, 
+    "_head": "0300050005", 
+    "amount": 0.5, 
+    "_date": "67f5131e10"
+  }, 
+  {
+    "_type": "Prime", 
+    "type": "manual", 
+    "_description": "Prime 2016-07-30T19:53:06 head[5], body[0] op[0x03]", 
+    "timestamp": "2016-07-30T19:53:06", 
+    "_body": "", 
+    "fixed": 0.0, 
+    "_head": "0300000000", 
+    "amount": 0.0, 
+    "_date": "46f5331e10"
+  }, 
+  {
     "_type": "Rewind", 
     "_description": "Rewind 2016-07-30T19:50:46 head[2], body[0] op[0x21]", 
     "timestamp": "2016-07-30T19:50:46", 
