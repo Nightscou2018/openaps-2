@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-07-31T13:39:21.245Z", 
+    "created_at": "2016-07-31T13:44:13.202Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,28 +9,28 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-07-31T13:38:30.000Z", 
+        "timestamp": "2016-07-31T13:43:31.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 128.05, 
+      "reservoir": 127.95, 
       "clock": "2016-07-15T18:26:37-04:00"
     }, 
-    "_id": "579dff896738634d10834dfb", 
+    "_id": "579e00ad6738634d10834dfc", 
     "openaps": {
       "suggested": {
-        "bg": 91, 
+        "bg": 92, 
         "temp": "absolute", 
-        "snoozeBG": 94, 
-        "timestamp": "2016-07-31T13:38:55.000Z", 
-        "reason": "Eventual BG 94>=90, temp 1.05 >~ req 1.11U/hr", 
-        "eventualBG": 94, 
+        "snoozeBG": 95, 
+        "timestamp": "2016-07-31T13:43:54.000Z", 
+        "reason": "Eventual BG 95>=90, temp 1.05 >~ req 1.15U/hr", 
+        "eventualBG": 95, 
         "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 90 Deviation: 3 BGI: 0", 
         "tick": "+1"
       }, 
       "iob": {
         "netbasalinsulin": 0, 
-        "timestamp": "2016-07-31T13:38:53.000Z", 
+        "timestamp": "2016-07-31T13:43:53.000Z", 
         "activity": 0, 
         "basaliob": 0, 
         "hightempinsulin": 0, 
@@ -38,23 +38,23 @@
         "iob": 0
       }, 
       "enacted": {
-        "bg": 91, 
+        "bg": 92, 
         "temp": "absolute", 
-        "snoozeBG": 94, 
-        "timestamp": "2016-07-31T13:38:57.000Z", 
+        "snoozeBG": 95, 
+        "timestamp": "2016-07-31T13:43:56.000Z", 
         "missing": [
           "duration", 
           "rate"
         ], 
-        "reason": "Eventual BG 94>=90, temp 1.05 >~ req 1.11U/hr", 
-        "eventualBG": 94, 
+        "reason": "Eventual BG 95>=90, temp 1.05 >~ req 1.15U/hr", 
+        "eventualBG": 95, 
         "error": "missing required input fields", 
         "input": {
-          "bg": 91, 
+          "bg": 92, 
           "temp": "absolute", 
-          "snoozeBG": 94, 
-          "reason": "Eventual BG 94>=90, temp 1.05 >~ req 1.11U/hr", 
-          "eventualBG": 94, 
+          "snoozeBG": 95, 
+          "reason": "Eventual BG 95>=90, temp 1.05 >~ req 1.15U/hr", 
+          "eventualBG": 95, 
           "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 90 Deviation: 3 BGI: 0", 
           "tick": "+1"
         }, 
