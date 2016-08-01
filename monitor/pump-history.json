@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-08-01T06:38:21 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-08-01T06:38:21-04:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "9526064110"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-08-01T06:38:21 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-08-01T06:38:21-04:00", 
+    "_body": "00", 
+    "_head": "3340", 
+    "rate": 1.6, 
+    "_date": "9526064110"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-08-01T06:33:20 head[2], body[0] op[0x16]", 
     "timestamp": "2016-08-01T06:33:20-04:00", 
     "_body": "", 
@@ -703,51 +722,5 @@
     "_head": "331b", 
     "rate": 0.675, 
     "_date": "51f5165f10"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-07-31T22:38:18 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-07-31T22:38:18-04:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "52e6165f10"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-07-31T22:38:18 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-07-31T22:38:18-04:00", 
-    "_body": "00", 
-    "appended": [
-      {
-        "_type": "UnabsorbedInsulinBolus", 
-        "_description": "UnabsorbedInsulinBolus unknown head[14], body[0] op[0x5c]", 
-        "_body": "", 
-        "_head": "5c0e280dc0c8adc0507fd0f0a7d0", 
-        "data": [
-          {
-            "amount": 1.0, 
-            "age": 13
-          }, 
-          {
-            "amount": 5.0, 
-            "age": 173
-          }, 
-          {
-            "amount": 2.0, 
-            "age": 383
-          }, 
-          {
-            "amount": 6.0, 
-            "age": 423
-          }
-        ], 
-        "_date": ""
-      }
-    ], 
-    "_head": "3364", 
-    "rate": 2.5, 
-    "_date": "52e6165f10"
   }
 ]
