@@ -7,7 +7,7 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-01T07:28:59.000Z", 
+      "timestamp": "2016-08-01T07:43:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
@@ -26,15 +26,6 @@
       "duration": 30, 
       "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: -26 BGI: 0", 
       "tick": -2
-    }, 
-    "iob": {
-      "netbasalinsulin": 0, 
-      "timestamp": "2016-08-01T07:24:19.000Z", 
-      "activity": 0, 
-      "basaliob": 0, 
-      "hightempinsulin": 0, 
-      "bolussnooze": 0, 
-      "iob": 0
     }, 
     "enacted": {
       "bg": 83, 
