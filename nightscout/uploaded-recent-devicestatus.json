@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-08-02T03:14:30.279Z", 
+    "created_at": "2016-08-02T03:19:21.424Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,30 +9,28 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-08-02T03:13:44.000Z", 
+        "timestamp": "2016-08-02T03:18:30.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 60.15, 
+      "reservoir": 59.95, 
       "clock": "2016-07-15T18:26:37-04:00"
     }, 
-    "_id": "57a010166738634d10834f1d", 
+    "_id": "57a011396738634d10834f1e", 
     "openaps": {
       "suggested": {
         "bg": 173, 
         "temp": "absolute", 
         "snoozeBG": 173, 
-        "timestamp": "2016-08-02T03:14:07.000Z", 
-        "reason": "Eventual BG 173>=125, adj. req. rate:3.2 to maxSafeBasal:2.8, temp 0.675<2.8U/hr", 
-        "rate": 2.75, 
+        "timestamp": "2016-08-02T03:18:53.000Z", 
+        "reason": "Eventual BG 173>=125, adj. req. rate:3.2 to maxSafeBasal:2.8, temp 2.75 >~ req 2.8U/hr", 
         "eventualBG": 173, 
-        "duration": 30, 
         "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 110 Deviation: 0 BGI: 0", 
-        "tick": "+3"
+        "tick": "+0"
       }, 
       "iob": {
         "netbasalinsulin": 0, 
-        "timestamp": "2016-08-02T03:14:06.000Z", 
+        "timestamp": "2016-08-02T03:18:52.000Z", 
         "activity": 0, 
         "basaliob": 0, 
         "hightempinsulin": 0, 
@@ -43,14 +41,25 @@
         "bg": 173, 
         "temp": "absolute", 
         "snoozeBG": 173, 
-        "recieved": true, 
-        "rate": 2.75, 
-        "reason": "Eventual BG 173>=125, adj. req. rate:3.2 to maxSafeBasal:2.8, temp 0.675<2.8U/hr", 
+        "timestamp": "2016-08-02T03:18:56.000Z", 
+        "missing": [
+          "duration", 
+          "rate"
+        ], 
+        "reason": "Eventual BG 173>=125, adj. req. rate:3.2 to maxSafeBasal:2.8, temp 2.75 >~ req 2.8U/hr", 
         "eventualBG": 173, 
-        "timestamp": "2016-08-02T03:14:11.000Z", 
-        "duration": 30, 
+        "error": "missing required input fields", 
+        "input": {
+          "bg": 173, 
+          "temp": "absolute", 
+          "snoozeBG": 173, 
+          "reason": "Eventual BG 173>=125, adj. req. rate:3.2 to maxSafeBasal:2.8, temp 2.75 >~ req 2.8U/hr", 
+          "eventualBG": 173, 
+          "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 110 Deviation: 0 BGI: 0", 
+          "tick": "+0"
+        }, 
         "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 110 Deviation: 0 BGI: 0", 
-        "tick": "+3"
+        "tick": "+0"
       }
     }
   }
