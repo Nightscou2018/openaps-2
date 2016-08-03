@@ -1,16 +1,1 @@
-[
-  {
-    "_type": "LowReservoir", 
-    "_description": "LowReservoir 2016-08-03T07:18:06 head[2], body[0] op[0x34]", 
-    "notes": "LowReservoir 523 ", 
-    "timestamp": "2016-08-03T07:18:06-04:00", 
-    "_body": "", 
-    "_head": "3464", 
-    "enteredBy": "openaps://medtronic/523", 
-    "amount": 10, 
-    "medtronic": "mm://openaps/mm-format-ns-treatments/LowReservoir", 
-    "eventType": "Note", 
-    "created_at": "2016-08-03T07:18:06-04:00", 
-    "_date": "8612070310"
-  }
-]
+[]
