@@ -1,7 +1,7 @@
 [
   {
     "device": "openaps://raspberrypi", 
-    "created_at": "2016-08-04T10:34:22.486Z", 
+    "created_at": "2016-08-04T10:39:40.779Z", 
     "pump": {
       "battery": {
         "status": "normal", 
@@ -9,14 +9,14 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-08-04T10:33:34.000Z", 
+        "timestamp": "2016-08-04T10:38:44.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 115.625, 
+      "reservoir": 115.6, 
       "clock": "2016-07-15T18:26:37-04:00"
     }, 
-    "_id": "57a31a2e6738634d10835088", 
+    "_id": "57a31b6c6738634d10835089", 
     "openaps": {
       "suggested": {
         "bg": 127, 
@@ -29,15 +29,6 @@
         "duration": 30, 
         "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: -18 BGI: 0", 
         "tick": -3
-      }, 
-      "iob": {
-        "netbasalinsulin": 0, 
-        "timestamp": "2016-08-04T10:33:59.000Z", 
-        "activity": 0, 
-        "basaliob": 0, 
-        "hightempinsulin": 0, 
-        "bolussnooze": 0, 
-        "iob": 0
       }, 
       "enacted": {
         "bg": 127, 
