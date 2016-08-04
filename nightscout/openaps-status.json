@@ -7,7 +7,7 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-08-04T05:18:31.000Z", 
+      "timestamp": "2016-08-04T05:23:31.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
@@ -18,18 +18,16 @@
     "suggested": {
       "bg": 80, 
       "temp": "absolute", 
-      "snoozeBG": 82, 
-      "timestamp": "2016-08-04T05:18:56.000Z", 
-      "rate": 0, 
-      "reason": "BG 80<82.5", 
-      "eventualBG": 82, 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: 2 BGI: 0", 
-      "tick": "+1"
+      "snoozeBG": 80, 
+      "timestamp": "2016-08-04T05:23:58.000Z", 
+      "reason": "BG 80<82.5, but 27m left and 0 ~ req 0U/hr: no action required", 
+      "eventualBG": 80, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: 0 BGI: 0", 
+      "tick": "+0"
     }, 
     "iob": {
       "netbasalinsulin": 0, 
-      "timestamp": "2016-08-04T05:18:55.000Z", 
+      "timestamp": "2016-08-04T05:23:57.000Z", 
       "activity": 0, 
       "basaliob": 0, 
       "hightempinsulin": 0, 
@@ -39,15 +37,26 @@
     "enacted": {
       "bg": 80, 
       "temp": "absolute", 
-      "snoozeBG": 82, 
-      "recieved": true, 
-      "reason": "BG 80<82.5", 
-      "rate": 0, 
-      "eventualBG": 82, 
-      "timestamp": "2016-08-04T05:19:03.000Z", 
-      "duration": 30, 
-      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: 2 BGI: 0", 
-      "tick": "+1"
+      "missing": [
+        "duration", 
+        "rate"
+      ], 
+      "timestamp": "2016-08-04T05:24:00.000Z", 
+      "snoozeBG": 80, 
+      "reason": "BG 80<82.5, but 27m left and 0 ~ req 0U/hr: no action required", 
+      "eventualBG": 80, 
+      "error": "missing required input fields", 
+      "input": {
+        "bg": 80, 
+        "temp": "absolute", 
+        "snoozeBG": 80, 
+        "reason": "BG 80<82.5, but 27m left and 0 ~ req 0U/hr: no action required", 
+        "eventualBG": 80, 
+        "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: 0 BGI: 0", 
+        "tick": "+0"
+      }, 
+      "mealAssist": "Off: Carbs: undefined Boluses: undefined ISF: 50, Target: 125 Deviation: 0 BGI: 0", 
+      "tick": "+0"
     }
   }
 }
